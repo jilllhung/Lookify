@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items:baseline;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.right-align{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.error-message{
+	text-align: center;
+	color: red;
+}
+.input-error-container{
+	display: flex;
+	flex-direction: column;
+}
+.button-container{
+	display: flex;
+	justify-content: flex-end;
+	max-width: 100%;
+}
+.show-list{
+	max-width: 500px;
+}
